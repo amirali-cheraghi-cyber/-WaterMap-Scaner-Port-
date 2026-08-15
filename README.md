@@ -1,70 +1,57 @@
 # NexusScan
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/Platform-Linux-blue?style=for-the-badge&logo=linux" alt="Platform">
-  <img src="https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge&logo=python" alt="Language">
+  <img src="https://img.shields.io/badge/Status-Beta-yellow?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Language-Go-00ADD8?style=for-the-badge&logo=go" alt="Go">
+  <img src="https://img.shields.io/badge/Frontend-HTML%2FCSS-orange?style=for-the-badge&logo=html5" alt="Frontend">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Speed-Optimized-orange?style=flat-square" alt="Speed">
+  <img src="https://img.shields.io/badge/Speed-Optimized-blue?style=flat-square" alt="Speed">
   <img src="https://img.shields.io/badge/Stealth-Silent%20Mode-lightgrey?style=flat-square" alt="Stealth">
-  <img src="https://img.shields.io/badge/Service%20Detection-Enabled-blueviolet?style=flat-square" alt="Service Detection">
+  <img src="https://img.shields.io/badge/Service%20Detection-Coming%20Soon-red?style=flat-square" alt="Service Detection">
 </p>
 
-Fast • Silent • Intelligent Port & Service Scanner
+Fast • Silent • Modern Port Scanner
 
-NexusScan is a modern, high-performance network reconnaissance tool built for security researchers and ethical hackers.  
-It focuses on three core principles: speed, stealth, and accurate service identification.
+NexusScan is a high-performance network reconnaissance tool written in Go, with a clean web-based interface built using HTML & CSS.
 
----
-
-### Key Features
-
-- High-Speed Engine  
-  Multi-threaded architecture designed for fast and efficient scanning.
-
-- Stealth Mode  
-  Low-noise techniques to minimize detection by firewalls and intrusion detection systems.
-
-- Intelligent Service Detection  
-  Automatically identifies common services including:
-  - SSH
-  - HTTP / HTTPS
-  - FTP
-  - SMTP
-  - DNS
-  - MySQL / PostgreSQL
-  - RDP
-  - and more
-
-- Flexible Interface  
-  - Clean Command-Line Interface (CLI)
-  - Optional Lightweight GUI
-
-- Smart Targeting  
-  Supports single IPs, IP ranges, and CIDR notation.
-
-- Clean Output  
-  Structured and readable results with service banners and version information when available.
+It is designed for security researchers who need speed and low noise.
 
 ---
 
-### Philosophy
+### Current Features (Beta)
 
-| Principle     | Description                                      |
-|---------------|--------------------------------------------------|
-| Speed     | Get accurate results with minimal delay          |
-| Silence   | Reduce network noise as much as possible         |
-| Clarity   | Prefer meaningful service detection over raw ports |
+- High-speed multi-threaded port scanning
+- Stealth / low-noise scanning mode
+- Clean Command-Line Interface
+- Lightweight Web GUI (HTML + CSS)
+- Support for single IP, IP ranges, and CIDR
+- Structured and readable output
+
+### Coming Soon
+
+- Intelligent Service Detection (SSH, HTTP, FTP, MySQL, RDP, and more)
+- Banner grabbing
+- Improved reporting
+
+---
+
+### Tech Stack
+
+| Layer       | Technology     |
+|-------------|----------------|
+| Core        | Go (Golang)    |
+| Interface   | HTML + CSS     |
+| Platform    | Linux          |
 
 ---
 
 ### Disclaimer
 
-This tool is intended strictly for authorized security testing and educational purposes.  
-Scanning networks without explicit permission is illegal and unethical.
+This tool is intended only for authorized security testing and educational purposes.  
+Unauthorized scanning is illegal.
 
 ---
 
