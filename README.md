@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Beta-yellow?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/Language-Go-00ADD8?style=for-the-badge&logo=go" alt="Go">
-  <img src="https://img.shields.io/badge/Frontend-HTML%2FCSS-orange?style=for-the-badge&logo=html5" alt="Frontend">
+  <img src="https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-orange?style=for-the-badge&logo=javascript" alt="Frontend">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
 </p>
 
@@ -15,7 +15,7 @@
 
 Fast • Silent • Modern Port Scanner
 
-NexusScan is a high-performance network reconnaissance tool written in Go, with a clean web-based interface built using HTML & CSS.
+NexusScan is a high-performance network reconnaissance tool written in Go, with a clean web-based interface built using HTML, CSS, and JavaScript.
 
 It is designed for security researchers who need speed and low noise.
 
@@ -26,7 +26,7 @@ It is designed for security researchers who need speed and low noise.
 - High-speed multi-threaded port scanning
 - Stealth / low-noise scanning mode
 - Clean Command-Line Interface
-- Lightweight Web GUI (HTML + CSS)
+- Lightweight Web GUI (HTML + CSS + JavaScript)
 - Support for single IP, IP ranges, and CIDR
 - Structured and readable output
 
@@ -40,11 +40,11 @@ It is designed for security researchers who need speed and low noise.
 
 ### Tech Stack
 
-| Layer       | Technology     |
-|-------------|----------------|
-| Core        | Go (Golang)    |
-| Interface   | HTML + CSS     |
-| Platform    | Linux          |
+| Layer       | Technology              |
+|-------------|-------------------------|
+| Core        | Go (Golang)             |
+| Frontend    | HTML + CSS + JavaScript |
+| Platform    | Linux                   |
 
 ---
 
